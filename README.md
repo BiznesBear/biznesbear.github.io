@@ -1,2 +1,1 @@
-# biznesbear-website
- 
+# Biznes bear website

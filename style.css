@@ -41,6 +41,8 @@ main {
     background: linear-gradient(to left bottom ,#0f0f41, black);
     margin: 3em;
     padding: 2em;
+    
+    padding-right: 22%;
 }
 
 .content {
