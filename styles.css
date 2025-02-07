@@ -1,10 +1,15 @@
 body {
-    background-color: rgb(17, 12, 22);
-    color: rgb(90, 90, 151);
+    background-color: #110c16;
+    color: #5a5a97;
     font-family: "Alata", sans-serif;
     font-size: large;
     font-weight: 400;
     font-style: normal;
+    
+}
+::selection {
+    color: #8915cd;
+    background: #b7b1be25;
 }
 
 a {
@@ -20,6 +25,12 @@ header {
     font-size: xx-large;
 }
 
+h3 {
+    color: wheat;
+    font-size: x-large;
+    text-shadow: 2px 2px 50px;
+}
+
 .header {
     color: wheat;
     text-shadow: 2px 2px 70px;
@@ -28,11 +39,6 @@ header {
     font-size: 3em;
 }
 
-h3 {
-    color: wheat;
-    font-size: x-large;
-    text-shadow: 2px 2px 50px;
-}
 
 .main {
     font-size: larger;
@@ -42,18 +48,18 @@ h3 {
     margin-top: 15px;
     margin-bottom: 15px;
     padding: 30px;
-    background: linear-gradient(145deg, rgb(17, 12, 22), rgb(19, 10, 46));
-    box-shadow: 0 4px 8px rgba(43, 33, 187, 0.6);
+    background: #130e1a;
     border-radius: 12px;
-    border: 6px solid rgb(39, 12, 82);
+    border: 6px solid #aa383e;
 }
 
 .frame {
     border-style: ridge;
     border-radius: 1px;
-    border-color: rgb(34, 19, 76);
+    border-color: #181120;
     background: linear-gradient(to left bottom, #1a0e3e, black);
-    margin: 3em;
+    margin: 2em;
+    height: 13em;
     padding: 2em;
     padding-right: 22%;
 }
@@ -67,9 +73,9 @@ h3 {
 }
 
 .sideimg {
-    margin-top: 2.5em;
+    margin-top: 4em;
     width: 20cap;
-    height: 20%;
+    height: 15%;
 }
 
 .container {
@@ -78,7 +84,7 @@ h3 {
     overflow: hidden;
 }
 
-.posts {
+.postcontainer {
     display: flex;
     flex-wrap: wrap;
     margin: 1em;
@@ -89,13 +95,13 @@ h3 {
     background: linear-gradient(to left bottom, #1a0e3e, black);
     border-style: ridge;
     border-radius: 5px;
-    border-color: rgb(34, 19, 76);
+    border-color: #181120;
     
-    width: 15em;
+    width: 16em;
     margin: 1em;
     overflow: hidden;
     text-align: center;
-    transition: transform 0.1s ease-in-out;
+    transition: transform 0.07s ease-in-out;
 }
 
 .post:hover {
